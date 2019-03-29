@@ -29,6 +29,12 @@ Save your input text as input.txt in the current directory.
 docker run --rm -it -v `pwd`:/shared -e MODE=command_line deepaiorg/sentiment-analysis --text /shared/input.txt
 ```
 
+### Command Line with Piped input
+
+```bash
+echo '{"text":"I am very happy because this model is great!"}' | docker run -e MODE=test_inputs_dict_json --rm -i deepaiorg/sentiment-analysis
+```
+
 # Docker build
 ```bash
 docker build -t sentiment-analysis .
