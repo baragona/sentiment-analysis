@@ -8,7 +8,7 @@ RUN pip3 install stanfordcorenlp==3.9.1.1
 
 RUN wget http://nlp.stanford.edu/software/stanford-corenlp-full-2018-02-27.zip && unzip stanford-corenlp-full-2018-02-27.zip
 
-RUN pip3 install ai-integration
+RUN pip3 install ai-integration==1.0.3
 
 COPY model.py .
 COPY entrypoint.py .
