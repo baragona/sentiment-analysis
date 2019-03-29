@@ -4,8 +4,8 @@
 
 <p>
     <a href="https://cloud.docker.com/u/deepaiorg/repository/docker/deepaiorg/sentiment-analysis">
-        <img src='https://img.shields.io/docker/cloud/automated/deepaiorg/sentiment-analysis?style=plastic' />
-        <img src='https://img.shields.io/docker/cloud/build/deepaiorg/sentiment-analysis' />
+        <img src='https://img.shields.io/docker/cloud/automated/deepaiorg/sentiment-analysis.svg?style=plastic' />
+        <img src='https://img.shields.io/docker/cloud/build/deepaiorg/sentiment-analysis.svg' />
     </a>
 </p>
 
